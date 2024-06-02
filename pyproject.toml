@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bob-the-fish"
+version = "0.1.0"
+description = ""
+authors = ["NoRePercussions <tucker@tuckershea.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.3.2"
+openai = "^1.30.5"
+
+[tool.poetry.scripts]
+bot = "bob_the_fish.bot:main"
+scrape = "bob_the_fish.scrape:main"
+process = "bob_the_fish.process:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
