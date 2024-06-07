@@ -7,6 +7,14 @@ to pings and DMs/group messages.
 
 ## Usage
 
+> [!TIP]
+> Don't use Nix? You can install Poetry, setup with 
+> `poetry install`, and substitute nix commands for:
+> 
+> - `poetry run bot <arguments>`
+> - `poetry run scrape <arguments>`
+> - `poetry run process <arguments`
+
 ### Bot
 
 You must have an OpenAI API key with write permissions on "Model
